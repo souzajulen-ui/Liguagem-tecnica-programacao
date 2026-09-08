@@ -21,7 +21,7 @@ int main(int argc, char *argv[]) {
 	
 	if(letra == 'a')printf("a de amor");
 	else if(letra == 'b')printf("b de baixinho");
-	else if(letra == 'c')printf("c de coração");
+	else if(letra == 'c')printf("c de coraÃ§Ã£o");
 	else if(letra == 'd')printf("d de dacinho");
 	
 	printf("\n");
@@ -33,7 +33,7 @@ int main(int argc, char *argv[]) {
 			printf("B de baixinho ");
 			break;
 		case 'c':
-			printf("c de curação ");
+			printf("c de curaÃ§Ã£o ");
 			printf("ccc");
 			break;
 		case 'd':
