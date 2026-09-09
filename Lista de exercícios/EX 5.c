@@ -10,7 +10,7 @@ int main(int argc, char *argv[]) {
     scanf("%d %d %d %d", &v1, &v2, &v3, &v4);
 
     soma = v1 + v2 + v3 + v4;
-    media = soma / 4.0f; // Divide por 4.0f para manter as casas decimais da media
+    media = soma / 4.0f; 
     produtorio = v1 * v2 * v3 * v4;
 
     printf("Soma: %d\n", soma);
