@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+int main() {
+
 float inss(float bruto) {
     if (bruto <= 1412.00) return bruto * 0.075;
     else if (bruto <= 2666.68) return bruto * 0.09;
@@ -7,7 +9,6 @@ float inss(float bruto) {
     else return bruto * 0.14;
 }
 
-int main() {
     float bruto;
 
     printf("Salario bruto: ");
